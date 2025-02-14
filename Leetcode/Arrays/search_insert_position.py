@@ -18,5 +18,5 @@ class Solution:
         return i 
 
 s = Solution()
-a = s.searchInsert([1,], 0)
+a = s.searchInsert([1,2,3,4,5,6,8],7 )
 print(a)
