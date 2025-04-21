@@ -1,0 +1,20 @@
+Out of insertion sort, bubble sort and selection sort, the most widely used is insertion sort.
+Bubble sort is the most ineffecient of all three becasue it makes o(N^2) swaps. This is expensive as it leads to too many memory swaps,
+Selection swap makes (n-1) swaps everytime. 
+Insertion sort and bubble sort are both stable and adaptive. 
+Selection sort is neither stable nor adaptive.
+Insertion sort time complexity: O(N^2) in worst case, O(N) in the best case, O(N^2) in average case. O(1) Space complexity.
+Bubble sort time complexity:  O(N^2) in worst case, O(N) in the best case, O(N^2) in average case. O(1) Space complexity.
+Selection sort time complexity: O(N^2) in all cases. O(1) space complexity.
+
+Insertion Sort (How to visualize?):
+In insertion sort, we start with second item in the array. And the inner loop creates space for that element (which would 
+be selected by outer loop). The inner loop checks if the elements before the chosen elemnt by outer loop are larger than
+it or not. If they are larger, then swaps are made. Finally, after checking all the elements, the selected element is put behind all. The selected element is temporarily stored in cache variable. 
+
+Bubble Sort (How to visualize?):
+Starts with the second element. Imagine that element asking the elemenet before it whether it is bigger than it or not. If yes then they swap places. This continues till the very beginning. 
+
+
+Selection Sort (How to visualize?):
+The outer loop runs from first element. Not the inner loop checks the remaining elements to find the smallest of all. The smallest one is then swapped with start index. 
