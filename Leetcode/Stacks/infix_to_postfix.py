@@ -42,4 +42,4 @@ def infix_to_postfix(expr: str):
         output.append(stack.pop())
     return " ".join(output)
 
-print(infix_to_postfix("( ( A + B ) * C - ( D / ( E ^ F ) ) ) * ( G + H / ( I * J ) )"))
+print(infix_to_postfix("1 + 2 / 3 * 4 - 5"))
