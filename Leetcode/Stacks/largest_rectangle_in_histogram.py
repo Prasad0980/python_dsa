@@ -28,5 +28,5 @@ def largest_rectangle(arr):
     return max_rec
 
 
-print(largest_rectangle([4,2,0,3,2,5]))
+print(largest_rectangle([2,0,2,1,1]))
         
