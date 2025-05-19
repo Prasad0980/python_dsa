@@ -1,0 +1,5 @@
+1. IN-ORDER TRAVERSAL : The sequence is left->root->right 
+2. PRE-ORDER TRAVERSAL: The sequence is root->left->right
+3. POST-ORDER TRAVERSAL: The sequence is left->right->root 
+
+These are the standard methods of traversal. Although, we can also start traversal from right node. 
